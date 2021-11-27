@@ -6,7 +6,6 @@ import { AuthContext } from '../../context/auth';
 export function LoginBox() {
 
     const { signInUrl, user } = useContext(AuthContext);
-    console.log(user);
 
     return (
         <div className={styles.loginBoxWrapper}>
@@ -17,4 +16,4 @@ export function LoginBox() {
             </a>
         </div>
     )
-  }
+}
